@@ -33,6 +33,13 @@ const data = [
         <p className="text-base font-montserrat p-3">
         Depois da captura, a Anti-pesto realoca todos os cativos em sua sede, contudo, após enfrentar problemas de espaço, nossa empresa decidiu que precisávamos liberar essas criaturas, mas somente com uma transformação em seus hábitos prejudiciais a Tottington. Foi aí que nasceu uma nova máquina: Manipulation-o-Matic.</p>
 
+        <div className="flex items-center justify-center place-content-center">
+            <img className="w-72 h-auto"
+            src="img/mindomatic.jpg"
+            alt="Esboço da máquina Mind-o-Matic"
+            />
+          </div>
+
         <p className="text-base font-montserrat p-3"> Conectando a Manipulation-o-Matic ao BV6000, e com a ajuda das ondas lunares para intensificar as ondas cerebrais, é possível passar afirmações aos coelhos. As mais certeiras que utilizamos são: "Vegetais são ruins" e "Diga não às cenouras, aos alfaces e às couve-flores".</p>
 
         <h1 className="bg-orange-800 text-xl text-gray-100 font-bold p-3">Câmeras 24/7</h1>
