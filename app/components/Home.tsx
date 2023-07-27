@@ -2,7 +2,7 @@ import React from "react";
 
 export const Home = () => {
   return (
-    <section className="pt-24">
+    <section id="home" className="pt-24">
       <div className="flex flex-col justify-center items-center">
         <img
           className="opacity-50"
