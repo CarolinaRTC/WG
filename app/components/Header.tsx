@@ -15,16 +15,16 @@ export const Header = () => {
           <nav>
             <ul>
               <li className="space-x-2">
-                <a className="hover:text-gray-400" href="">
+                <a className="hover:text-gray-400" href="#home">
                   Home
                 </a>
-                <a className="hover:text-gray-400" href="">
+                <a className="hover:text-gray-400" href="#sobre">
                   Empresa
                 </a>
-                <a className="hover:text-gray-400" href="">
+                <a className="hover:text-gray-400" href="#serviços">
                   Serviços
                 </a>
-                <a className="hover:text-gray-400" href="">
+                <a className="hover:text-gray-400" href="#contato">
                   Contato
                 </a>
               </li>
