@@ -2,7 +2,7 @@ import React from "react";
 
 export const Sobre = () => {
   return (
-    <section className="text-xl m-10">
+    <section id="sobre" className="text-xl m-10">
       <div className="text-center">
         <h1 className="bg-orange-800 text-4xl text-gray-100 font-bold p-3">SOBRE A EMPRESA</h1>
         <p className="text-base font-montserrat pt-4 p-3">
