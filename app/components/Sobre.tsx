@@ -7,14 +7,18 @@ export const Sobre = () => {
         <h1 className="bg-orange-800 text-4xl text-gray-100 font-bold p-3">
           SOBRE A EMPRESA
         </h1>
-        <p className="text-base font-montserrat pt-4">
-          Somos uma empresa com o objetivo de capturar criaturas prejudiciais a
-          jardins e plantações, sendo nosso maior foco os coelhos.
+        <p className="text-base font-montserrat pt-4 p-3">
+          Somos uma equipe de dedetizadores que tem como objetivo promover
+          ambientes, especialmente jardins e hortas, livres de "parasitas". Em
+          grande parte nosso trabalho é focado na retirada e realocação de
+          coelhos, uma vez que seus hábitos costumam trazer diversos prejuízos
+          para as plantações.
         </p>
-        <p className="text-base text-center font-montserrat">
-          Nossa equipe é excepcionalmente qualificada e utiliza apenas
-          ferramentas autorais, tecnologias desenvolvidas pelas nossas próprias
-          mãos e confiáveis mesmo nas situações mais difíceis.
+        <p className="text-base text-center font-montserrat p-3">
+          Nosso time é altamente treinado para executar de forma rápida e
+          eficiente, utilizando ferramentas e tecnologias autorais que tem sua
+          confiabilidade comprovada através de testes em situações diversas e de
+          anos de experiência no ramo.
         </p>
 
         <p className="text-base text-center font-montserrat pb-2">
