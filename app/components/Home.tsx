@@ -11,12 +11,12 @@ export const Home = () => {
         />
         <div className="flex flex-col gap-5 absolute">
           <h1 className="flex justify-center font-bold text-2xl">BEM-VINDO!</h1>
-          <button
-            id="contato"
+          <a
+            href="#contato"
             className="flex justify-center bg-orange-800 px-4 py-2 rounded-full text-gray-100 hover:bg-orange-900 font-bold text-md transition hover:scale-110"
           >
             CONTATO
-          </button>
+          </a>
         </div>
       </div>
     </section>
