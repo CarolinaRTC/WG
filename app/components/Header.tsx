@@ -14,7 +14,7 @@ export const Header = () => {
         <div className="w-1/2 max-h-16 flex items-center">
           <nav>
             <ul>
-              <li className="space-x-4">
+              <li className="space-x-2">
                 <a className="hover:text-gray-400" href="">
                   Home
                 </a>
