@@ -21,12 +21,12 @@ export const Serviços = () => {
   ];
 
   return (
-    <section id="serviços" className=" text-xl w-xl w-max-sm"> 
-    
-    <h1 className="bg-orange-800 text-4xl text-gray-100 font-bold p-3 flex justify-center">
-      SERVIÇOS</h1>
+    <section id="serviços" className=" text-xl w-xl w-max-sm">
+      <h1 className="bg-orange-800 text-2xl lg:text-4xl text-gray-100 font-bold p-3 flex justify-center">
+        SERVIÇOS
+      </h1>
 
-      <div className="m-5 mt-0 mb-0">
+      <div className="m-0 mt-0 mb-0">
         <Swiper slidesPerView={1} pagination={{ clickable: true }} navigation>
           {data.map((item) => (
             <SwiperSlide key={item.id}>
@@ -34,18 +34,18 @@ export const Serviços = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        </div>
-        <div className="text-center text-xl">
-          <h1 className="bg-orange-800 text-xl text-gray-100 font-bold p-3">
-            Reabilitação de cativos
-          </h1>
-          <div className="m-10 mt-2 mb-2">
+      </div>
+      <div className="text-center text-xl">
+        <h1 className="bg-orange-800 text-xl text-gray-100 font-bold p-3">
+          Reabilitação de cativos
+        </h1>
+        <div className="m-10 mt-2 mb-2 lg:ml-44 lg:mr-44">
           <p className="text-base font-montserrat p-3">
-            Depois da captura, a Anti-pesto realoca todos os cativos em sua sede,
-            contudo, após enfrentar problemas de espaço, nossa empresa decidiu que
-            precisávamos liberar essas criaturas, mas somente com uma
-            transformação em seus hábitos prejudiciais a Tottington. Foi aí que
-            nasceu uma nova máquina: Manipulation-o-Matic.
+            Depois da captura, a Anti-pesto realoca todos os cativos em sua
+            sede, contudo, após enfrentar problemas de espaço, nossa empresa
+            decidiu que precisávamos liberar essas criaturas, mas somente com
+            uma transformação em seus hábitos prejudiciais a Tottington. Foi aí
+            que nasceu uma nova máquina: Manipulation-o-Matic.
           </p>
           <div className="flex items-center justify-center place-content-center">
             <img
@@ -62,14 +62,14 @@ export const Serviços = () => {
             "Vegetais são ruins" e "Diga não às cenouras, aos alfaces e às
             couve-flores".
           </p>
-          </div>
-          <h1 className="bg-orange-800 text-xl text-gray-100 font-bold p-3">
-            Câmeras 24/7
-          </h1>
-          <div className="m-10 mt-2 mb-2">
+        </div>
+        <h1 className="bg-orange-800 text-xl text-gray-100 font-bold p-3">
+          Câmeras 24/7
+        </h1>
+        <div className="m-10 mt-2 mb-2 lg:ml-44 lg:mr-44">
           <p className="text-base font-montserrat p-3">
-            Está buscando uma segurança para seus momentos de sono e distração? A
-            Anti-pesto conta com um sistema de câmeras perfeito para isso!
+            Está buscando uma segurança para seus momentos de sono e distração?
+            A Anti-pesto conta com um sistema de câmeras perfeito para isso!
           </p>
           <p className="text-base font-montserrat p-3">
             Disfarçadas de gnomos de jardim e munidas de sensores que captam
@@ -77,11 +77,11 @@ export const Serviços = () => {
             da nossa empresa, de forma que, ao menor risco de integridade a sua
             plantação, nossa equipe já está pronta para agir.
           </p>
-          </div>
-          <h1 className="bg-orange-800 text-xl text-gray-100 font-bold p-3">
-            Capturas
-          </h1>
-          <div className="m-10 mt-2 mb-2">
+        </div>
+        <h1 className="bg-orange-800 text-xl text-gray-100 font-bold p-3">
+          Capturas
+        </h1>
+        <div className="m-10 mt-2 mb-2 lg:ml-44 lg:mr-44">
           <p className="text-base font-montserrat p-3">
             Mais de 700 capturas foram bem-sucedidas na Vila Tottington, sendo
             previsto um aumento exponencial desse número com a aproximação da
@@ -89,17 +89,16 @@ export const Serviços = () => {
             são realizadas?
           </p>
           <p className="text-base font-montserrat p-3 pb-4">
-            Prezando pelos nossos valores, a equipe Anti-pesto optou pela captura
-            mais humana possível. A nossa máquina de maior confiança é a BunVac
-            6000, indispensável para as criaturas que insistem em permanecer
-            dentro de algum buraco de terra, que conta com o poder de sucção
-            espetacular de 25 mil rpm, rabbits per minute. Ainda com uma
+            Prezando pelos nossos valores, a equipe Anti-pesto optou pela
+            captura mais humana possível. A nossa máquina de maior confiança é a
+            BunVac 6000, indispensável para as criaturas que insistem em
+            permanecer dentro de algum buraco de terra, que conta com o poder de
+            sucção espetacular de 25 mil rpm, rabbits per minute. Ainda com uma
             tecnologia única tão avançada, gostamos de contar com nosso próprio
             cuidado e delicadeza ao usar ferramentas manuais para captura.
           </p>
-          </div>
         </div>
-      
+      </div>
     </section>
   );
 };

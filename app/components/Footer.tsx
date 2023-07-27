@@ -2,11 +2,12 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-green-800 text-gray-100 p-4">
-      <div className="flex flex-col justify-center gap-5">
+    <footer className="bg-green-800 text-gray-100 p-4 text-sm sm:text-base lg:text-lg">
+      <div className="flex flex-col lg:justify-between lg:flex-row lg:space-x-6 lg:ml-44 lg:mr-44">
         <div>
           <h1 className="font-bold">Nossa localização:</h1>
-          <p>Rua Caçando Coelhos, 123 - Vila Vegetais</p>
+          <p>Rua Caçando Coelhos, 123</p>
+          <p>Vila Vegetais</p>
           <p>Cidade dos Coelhos</p>
         </div>
         <div>
@@ -18,7 +19,7 @@ export const Footer = () => {
           <h1 className="font-bold">Navegue:</h1>
           <nav>
             <ul>
-              <li className="space-x-2">
+              <li className="space-x-2 lg:flex lg:flex-col lg:space-x-0">
                 <a className="hover:text-gray-400" href="#home">
                   Home
                 </a>
