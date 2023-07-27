@@ -2,7 +2,7 @@ import React from "react";
 
 export const Contato = () => {
   return (
-    <section className="m-10 flex flex-col space-y-4">
+    <section id="contato" className="m-10 flex flex-col space-y-4">
       <h1 className="font-bold text-xl">CONTATO</h1>
       <input
         type="Nome"
