@@ -22,7 +22,7 @@ export const Sobre = () => {
             de anos de experiência no ramo.
           </p>
           <p className="text-base text-center font-montserrat p-3 pb-2">
-            Nossa empresa funciona bem em razão da forte base que seguimos:{" "}
+            A Anti-pesto funciona bem em razão da forte base que seguimos:{" "}
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
             <p className="bg-green-800 rounded-md text-xl text-gray-100 text-center font-montserrat font-italic font-bold py-3 px-2">
